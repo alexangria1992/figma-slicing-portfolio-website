@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
-    <div className="fixed border-2 border-red-700 left-0 right-0 bg-[#282C33]">
+    <div className="fixed  left-0 right-0 bg-[#282C33]">
       <div
-        className="border-2 border-green-500 max-w-[1560px] mx-auto flex items-center justify-between
-      pt-6 my-2 px-5 "
+        className="px-5 max-w-[1560px] mx-auto flex items-center justify-between
+      pt-6 my-2  "
       >
         <div
-          className="left border-2 border-blue-500 flex text-white gap-2 
+          className="left  flex text-white gap-2 
         items-center font-bold text-base"
         >
           <div className="img">
@@ -18,7 +18,7 @@ const Navbar = () => {
           Elias
         </div>
         <div
-          className="right border-2 border-blue-500 flex
+          className="right  flex
         items-center"
         >
           <div
@@ -28,7 +28,7 @@ const Navbar = () => {
                 ? `right-[-100%] top-0 bottom-0 `
                 : `right-0 top-0 bottom-0`
             } 
-             md:static bg-[#282C33] border-2 border-purple-500`}
+             md:static bg-[#282C33] `}
           >
             <a href="">
               <li className="text-[#ABB2BF] list-none text-[32px] md:my-auto my-4 md:text-base  mx-4">
