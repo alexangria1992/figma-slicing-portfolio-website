@@ -5,10 +5,10 @@ const About = () => {
   return (
     <>
       <div
-        className="border-2 border-red-500 pt-20 px-5 max-w-[1560px] mx-auto min-h-screen
+        className=" pt-20 px-5 max-w-[1560px] mx-auto min-h-screen
     flex items-center justify-between flex-wrap "
       >
-        <div className="border-2 border-blue-400  w-10/12 sm:w-8/12 mx-auto">
+        <div className="  w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
             Elias is a <span className="text-[#C778DD]">web designer</span> and
             <span className="text-[#C778DD]"> front-end developer</span>
@@ -23,7 +23,7 @@ const About = () => {
             Contact me!!
           </button>
         </div>
-        <div className="mx-auto border-2 border-orange-500">
+        <div className="mx-auto ">
           <div>
             <img src={require("./imgs/man.png")} alt="" />
           </div>
