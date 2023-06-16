@@ -26,12 +26,12 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <div className="border-2 border-red-500 px-5 max-w-[1560px] mx-auto py-10 mt-20">
+    <div className=" px-5 max-w-[1560px] mx-auto py-10 mt-20">
       {/* Top */}
       <div className=" flex justify-between items-center gap-5">
         {/* Left */}
         <div
-          className="text-white w-2/3 font-medium text-[32px] flex items-center 
+          className=" text-white w-2/3 font-medium text-[32px] flex items-center 
         gap-2"
         >
           <div>
