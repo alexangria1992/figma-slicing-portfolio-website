@@ -3,13 +3,13 @@ import React from "react";
 const AboutSec = () => {
   return (
     <>
-      <div className="border-2 border-red-500 px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className=" px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* bottom */}
-        <div className="border-2 border-blue-500 flex flex-wrap items-center justify-between">
+        <div className=" flex flex-wrap items-center justify-between">
           {/*Left */}
-          <div className="md:w-[48%] w-full border-2 border-orange-400">
+          <div className="md:w-[48%] w-full ">
             {/* Title */}
-            <div className="mb-12 border-2 border-green-400">
+            <div className="mb-12 ">
               <div
                 className=" text-white w-2/3 font-medium text-[32px] flex items-center 
         gap-2"
