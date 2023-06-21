@@ -1,21 +1,25 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import AboutSec from "./components/about_section/About";
-import Contact from "./components/contact_section/Contact";
-import About from "./components/first_section_about/About";
+import About_page from "./Pages/About_page";
+import Home_page from "./Pages/Home_page";
+
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects_section/Projects";
-import Skills from "./components/skills_section/Skills";
+
+import Project_page from "./Pages/Project_page";
+import Contact_page from "./Pages/Contact_page";
 
 function App() {
   return (
     <div className="bg-[#282C33]">
       <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <AboutSec />
-      <Contact />
+      <Routes>
+        {/* HOME PAGE */}
+        <Route path="/" element={<Home_page />} />
+        <Route path="/projects" element={<Project_page />} />
+        <Route path="/about" element={<About_page />} />
+        <Route path="/contact" element={<Contact_page />} />
+      </Routes>
       <Footer />
     </div>
   );
