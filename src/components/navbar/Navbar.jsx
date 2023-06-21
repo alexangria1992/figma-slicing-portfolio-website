@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -30,26 +31,26 @@ const Navbar = () => {
             } 
              md:static bg-[#282C33] `}
           >
-            <a href="">
+            <NavLink to="/">
               <li className="text-[#ABB2BF] list-none text-[32px] md:my-auto my-4 md:text-base  mx-4">
                 <span className="text-[#C778DD] font-medium">#</span>home
               </li>
-            </a>
-            <a href="">
+            </NavLink>
+            <NavLink to="/projects">
               <li className="text-[#ABB2BF] list-none text-[32px] md:my-auto my-4 md:text-base  mx-4">
                 <span className="text-[#C778DD] font-medium">#</span>works
               </li>
-            </a>
-            <a href="">
+            </NavLink>
+            <NavLink to="/about">
               <li className="text-[#ABB2BF] list-none text-[32px] md:my-auto my-4 md:text-base  mx-4">
                 <span className="text-[#C778DD] font-medium">#</span>about me
               </li>
-            </a>
-            <a href="">
+            </NavLink>
+            <NavLink to="/contact">
               <li className="text-[#ABB2BF] list-none text-[32px] md:my-auto my-4 md:text-base  mx-4">
                 <span className="text-[#C778DD] font-medium">#</span>contact
               </li>
-            </a>
+            </NavLink>
             <div
               onClick={() => setToggle(false)}
               className="close absolute block md:hidden right-3 top-3"
