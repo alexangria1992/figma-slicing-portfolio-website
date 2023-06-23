@@ -3,7 +3,7 @@ import React from "react";
 const AboutSec = () => {
   return (
     <>
-      <div className=" px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className=" px-5 max-w-[1560px] mx-auto pt-20 py-10">
         {/* bottom */}
         <div className=" flex flex-wrap items-center justify-between">
           {/*Left */}
