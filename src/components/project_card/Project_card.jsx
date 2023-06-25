@@ -3,7 +3,11 @@ import React from "react";
 const Project_Card = ({ img, title, langs, desc }) => {
   return (
     <>
-      <div className="border mx-auto w-[90%]  border-[#ABB2BF] md:w-[48%] lg:w-[30%]">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className="border mx-auto w-[90%]  border-[#ABB2BF] md:w-[48%] lg:w-[30%]"
+      >
         <div>
           <img className="w-full" src={img} alt="" />
         </div>

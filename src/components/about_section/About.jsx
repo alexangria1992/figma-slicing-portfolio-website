@@ -7,7 +7,7 @@ const AboutSec = () => {
         {/* bottom */}
         <div className=" flex flex-wrap items-center justify-between">
           {/*Left */}
-          <div className="md:w-[48%] w-full ">
+          <div data-aos="fade-right" className="md:w-[48%] w-full ">
             {/* Title */}
             <div className="mb-12 ">
               <div
@@ -46,7 +46,7 @@ const AboutSec = () => {
             </div>
           </div>
           {/* Right */}
-          <div className="mx-auto">
+          <div div data-aos="fade-left" className="mx-auto">
             <img className="mx-auto" src={require("./imgs/man.png")} alt="" />
           </div>
         </div>

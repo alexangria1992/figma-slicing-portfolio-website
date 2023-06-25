@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className="fixed  left-0 right-0 bg-[#282C33]">
+    <div data-aos="fade-down" className="fixed  left-0 right-0 bg-[#282C33]">
       <div
         className="px-5 max-w-[1560px] mx-auto flex items-center justify-between
       pt-6 my-2  "

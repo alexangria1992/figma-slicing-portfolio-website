@@ -8,8 +8,13 @@ import Navbar from "./components/navbar/Navbar";
 
 import Project_page from "./Pages/Project_page";
 import Contact_page from "./Pages/Contact_page";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, delay: 500 });
+  }, []);
   return (
     <div className="bg-[#282C33]">
       <Navbar />

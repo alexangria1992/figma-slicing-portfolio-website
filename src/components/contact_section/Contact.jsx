@@ -3,7 +3,11 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className=" px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        className=" px-5 max-w-[1560px] mx-auto mt-20 py-10"
+      >
         <div>
           <div className="mb-12 ">
             <div

@@ -31,6 +31,7 @@ const Projects = () => {
       <div className=" flex justify-between items-center gap-5">
         {/* Left */}
         <div
+          data-aos="fade-down"
           className=" text-white w-2/3 font-medium text-[32px] flex items-center 
         gap-2"
         >

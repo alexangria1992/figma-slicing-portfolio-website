@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
   return (
@@ -8,7 +10,7 @@ const About = () => {
         className=" pt-20 px-5 max-w-[1560px] mx-auto min-h-screen
     flex items-center justify-between flex-wrap "
       >
-        <div className="  w-10/12 sm:w-8/12 mx-auto">
+        <div data-aos="fade-right" className="  w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
             Elias is a <span className="text-[#C778DD]">web designer</span> and
             <span className="text-[#C778DD]"> front-end developer</span>
@@ -23,7 +25,7 @@ const About = () => {
             Contact me!!
           </button>
         </div>
-        <div className="mx-auto ">
+        <div data-aos="fade-left" data-aos-delay="400" className="mx-auto ">
           <div>
             <img src={require("./imgs/man.png")} alt="" />
           </div>
@@ -33,7 +35,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 py-10">
+      <div data-aos="fade-right" className="px-5 py-10">
         <img className="mx-auto " src={require("./imgs/quote.png")} alt="" />
       </div>
     </>

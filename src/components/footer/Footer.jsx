@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="w-full  h-px bg-[#ABB2BF] mt-20 mb-8"></div>
       {/* footer */}
-      <div className=" px-5 max-w-[1560px] mx-auto">
+      <div data-aos="fade-up" className=" px-5 max-w-[1560px] mx-auto">
         {/* top */}
         <div className="flex justify-between flex-wrap gap-y-12">
           {/* left */}

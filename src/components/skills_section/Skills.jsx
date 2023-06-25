@@ -32,8 +32,8 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <div className="border-2 border-green-500 px-5 max-w-[1560px] mx-auto py-10 mt-20">
-        <div className="mb-10 border-2 border-orange-500">
+      <div className=" px-5 max-w-[1560px] mx-auto py-10 mt-20">
+        <div data-aos="fade-left" className="mb-10 ">
           <div
             className=" text-white w-2/3 font-medium text-[32px] flex items-center 
         gap-2"
@@ -46,11 +46,11 @@ const Skills = () => {
         </div>
         {/* Bottom */}
         <div
-          className="border-2   border-red-500 flex flex-wrap
+          className="flex flex-wrap
       justify-between gap-10 items-center text-white"
         >
           {/* Left */}
-          <div className="mx-auto ">
+          <div div data-aos="fade-right" className="mx-auto ">
             <img
               className="w-full mx-auto"
               src={require("./imgs/shapes.png")}
@@ -59,7 +59,8 @@ const Skills = () => {
           </div>
           {/* right */}
           <div
-            className="border-2 border-blue-400 mx-auto flex-wrap justify-around 
+            data-aos="fade-left"
+            className=" mx-auto flex-wrap justify-around 
            flex md:justify-end gap-4 w-10/12 md:w-1/2"
           >
             {skills.map(({ title, languages }) => {
